@@ -5,6 +5,11 @@ This web app visualizes a simulated vehicle moving along a route in **Hyderabad,
 
 ---
 
+### 🚀 Live Demo
+👉 **[View Live Application](https://wondrous-crumble-11663e.netlify.app/)**  
+
+---
+
 ### 🌍 Features
 
 - 🗺️ **Live Map Tracking:** Displays a moving vehicle on an interactive map.  
