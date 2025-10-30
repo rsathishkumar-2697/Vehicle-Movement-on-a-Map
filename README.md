@@ -1,65 +1,92 @@
-Vehicle Movement Simulator - Simple ReadMe
-🚀 Live Demo
-View Live Application
+# 🚗 Vehicle Movement Simulator
 
-📱 About
-A web application that simulates a vehicle moving on a map in real-time using predefined route data. Perfect for tracking and visualization purposes.
+A simple and interactive **Vehicle Movement Simulator** built using **Leaflet.js**, **HTML**, **CSS**, and **JavaScript**.  
+This web app visualizes a simulated vehicle moving along a route in **Hyderabad, India**, showing live position, speed, and distance in real time.
 
-✨ Features
-Interactive Map - Built with Leaflet.js
+---
 
-Real-time Movement - Smooth vehicle animation
+### 🌍 Features
 
-Control Panel - Play, pause, reset buttons
+- 🗺️ **Live Map Tracking:** Displays a moving vehicle on an interactive map.  
+- ⚡ **Dynamic Data:** Calculates and updates speed, total distance, and progress.  
+- 🎮 **Simulation Controls:**
+  - ▶ **Play** — Start the simulation  
+  - ⏸ **Pause** — Temporarily stop  
+  - ⏹ **Reset** — Restart from the beginning  
+- ⏩ **Speed Adjustment:** Change playback speed (1x–10x).  
+- 📊 **Progress Bar:** Visual route completion indicator.  
+- 💬 **Popup Info:** Shows vehicle ID, current status, and last update time.  
+- 📱 **Responsive Design:** Optimized for desktop and mobile screens.
 
-Speed Control - Adjustable from 1x to 10x
+---
 
-Live Status - Coordinates, speed, distance, timestamps
+### 🧠 Tech Stack
 
-Responsive Design - Works on all devices
+- **HTML5** — Structure  
+- **CSS3** — Styling and layout  
+- **JavaScript (Vanilla)** — Logic and animation  
+- **Leaflet.js** — Map rendering  
+- **OpenStreetMap** — Map data provider
 
-🛠️ Technology
-Frontend: HTML5, CSS3, JavaScript (ES6+)
+---
 
-Mapping: Leaflet.js
+### 🛠️ How to Run Locally
 
-Map Tiles: OpenStreetMap
+1. **Clone this repository:**
+   ```bash
+   git clone https://github.com/yourusername/vehicle-movement-simulator.git
+   ```
 
-Deployment: Netlify/Vercel compatible
+2. **Navigate to the project folder:**
+   ```bash
+   cd vehicle-movement-simulator
+   ```
 
-📥 Installation
-Download the index.html file
+3. **Run the app:**
+   - Open `index.html` in any modern web browser.  
+   - No additional setup or dependencies required.
 
-Open it in any modern web browser
+---
 
-No server required - works offline!
+### 📂 Folder Structure
 
-🎮 How to Use
-Open the application in your browser
+```
+vehicle-movement-simulator/
+│
+├── index.html          # Main application file
+├── README.md           # Project documentation
+└── assets/             # (Optional) Static assets or data files
+```
 
-Click Play to start vehicle movement
+---
 
-Adjust Speed using the slider
+### ⚙️ Simulation Details
 
-Pause/Reset as needed
+The simulator uses static JSON data (`dummyRouteData`) representing 20 coordinates in Hyderabad, India.  
+Each point includes:
+```js
+{
+  latitude: 17.385044,
+  longitude: 78.486671,
+  timestamp: "2024-07-20T10:00:00Z"
+}
+```
+The script calculates speed and total distance dynamically using these coordinates.
 
-Track Progress in the status panel
+---
 
-📊 Status Information
-Current position (latitude, longitude)
+### 🚀 Future Improvements
 
-Real-time timestamp
+- Add **real-time GPS API** integration.  
+- Support for **multiple vehicles**.  
+- Include **charts** (speed vs. time, distance, etc.).  
+- Allow **data export** (CSV/JSON).  
+- Add **dark mode** for UI.
 
-Vehicle speed (km/h)
+---
 
-Distance traveled
+### 👨‍💻 Developer
 
-Route progress
-
-🔧 Customization
-Easily modify the vehicle route by editing the dummyRouteData array in the code.
-
-👨‍💻 Developer
-Built by Sathishkumar
-📞 Support
-For questions or issues, contact: +91 83290 35311
+**Built by Sathishkumar**  
+Powered by **Leaflet.js** & **OpenStreetMap**  
+© 2025 — Vehicle Movement Simulator
